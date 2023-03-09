@@ -1,0 +1,15 @@
+html {
+    box-sizing: border-box;
+}
+
+
+#emoji-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+    border: 1px solid black ;
+    }
